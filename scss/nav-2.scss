@@ -1,0 +1,43 @@
+// Bandziau nav-2 sukurti kaip classe folderyje nav.scss, bet man kaskastais nepavyko...
+
+nav-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.3) url(/content/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    max-width: 1400px;
+    height: 250px;
+
+    .center{
+        // background: purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 600px;
+        color: white;
+        font-size: 1.7em;
+    }
+    .center div{
+        margin-top: 10px;
+
+
+
+        input{
+            width: 400px;
+            height: 30px;
+            border-radius: 5px;
+            border: 5px solid white;
+        }
+
+        button{
+            height: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+}

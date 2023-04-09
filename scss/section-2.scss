@@ -1,0 +1,49 @@
+section-2{
+    height: 100px;
+    max-width: 1400px;  
+
+    .top{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        font-size: 1.8em;
+        font-weight: bold;
+        margin-top: 90px;
+        margin-bottom: 5px;
+        max-width: 1400px;
+        min-height: 20px;
+    }
+
+    .flex{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: 60px;
+        max-width: 1400px;
+    }
+    .grid{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        div{
+            height: 100%;
+            margin-left: 15px;
+            margin-right: 15px;
+
+            img{
+                width: 70%;
+                height: 70%;
+                border-radius: 100%;
+            }
+        }
+
+        
+    }
+}
