@@ -3,6 +3,10 @@ article{
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     max-width: 1400px;
+
+    p{
+        color: hsl(210deg 2.67% 70.59%);
+    }
     
     div{
         display: flex;

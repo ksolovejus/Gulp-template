@@ -1,6 +1,10 @@
 section-2{
-    height: 100px;
-    max-width: 1400px;  
+    min-height: 100px;
+    max-width: 1400px;
+    
+    p{
+        color: hsl(210deg 2.67% 70.59%);
+    }
 
     .top{
         display: flex;
