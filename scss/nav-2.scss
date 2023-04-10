@@ -1,15 +1,26 @@
 // Bandziau nav-2 sukurti kaip classe folderyje nav.scss, bet man kaskastais nepavyko...
 
 nav-2{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(0,0,0,0.3) url(/content/bg-showcase-1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: darken;
+    // background: rgba(0,0,0,0.3) url(/content/bg-showcase-1.jpg);
+    // background-position: center;
+    // background-size: cover;
+    // background-blend-mode: darken;
     max-width: 1800px;
     height: 250px;
+    background: rgba(0, 0, 0, 0.262);
+
+    img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -2;
+    }
 
     .center{
         // background: purple;
